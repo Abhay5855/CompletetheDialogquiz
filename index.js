@@ -56,6 +56,6 @@ for(var i = 0; i < dialogs.length; i++){
   play(currentQuestion.question,currentQuestion.answer)
     
 }
-console.log("Aapka final score hain ",score)
+console.log(chalk.cyan("Aapka final score hain ",score))
 
 
